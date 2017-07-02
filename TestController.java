@@ -1,7 +1,7 @@
 
-package com.decent.game.manager.user.controller;
+package com.game.manager.user.controller;
 
-import com.decent.game.common.entity.MessageBean;
+import com.game.common.entity.MessageBean;
 import org.apache.commons.io.IOUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;

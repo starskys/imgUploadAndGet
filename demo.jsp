@@ -23,7 +23,7 @@
 //                beforeSubmit:  showRequest,  // pre-submit callback
 //                success:       showResponse,  // post-submit callback
                 // other available options:
-                url:       "/UserController/uploadLicenseImg.do",         // override for form's 'action' attribute
+                url:       "/TestController/uploadImg.do",         // override for form's 'action' attribute
                 type:      'post'    ,    // 'get' or 'post', override for form's 'method' attribute
                 dataType: 'json',        // 'xml', 'script', or 'json' (expected server response type)
                 //clearForm: true        // clear all form fields after successful submit
@@ -64,7 +64,7 @@
                         $("#result").html(img);
                     }
                 }
-                xhr.open("post","../UserController/queryPicture.do")
+                xhr.open("post","../TestController/queryPicture.do")
                 xhr.responseType='blob'
                 var formData = new FormData();
                 //发送给服务器一个图片的地址来请求资源
